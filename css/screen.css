@@ -16,7 +16,7 @@ html {
     font-size: 16px;
     line-height: 1.5;
     font-family: Helvetica, arial, sans-serif;
-    color: #111;
+    color: #202024;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -36,13 +36,13 @@ html {
  */
 
 ::-moz-selection {
-    background: #e85e00;
+    background: #5051DB;
     color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #e85e00;
+    background: #5051DB;
     color: white;
     text-shadow: none;
 }
@@ -142,18 +142,15 @@ hr {
 }
 
 a {
-    color: RoyalBlue;
+    color: #5051DB;
     transition: all .1s ease-in-out;
 }
 
 a:visited,
-a:active {
-    color: BlueViolet;
-}
-
+a:active,
 a:hover,
 a:focus {
-    color: Crimson;
+    color: #3E3EA8;
 }
 
 /*------------------------------------*\
