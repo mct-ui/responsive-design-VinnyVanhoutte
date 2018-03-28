@@ -2,6 +2,24 @@
   #FONTS
 \*------------------------------------*/
 
+@font-face {
+    font-family: "HK Grotesk Web";
+    font-weight: 200;
+    src: url("../fonts/hkgrotesk-light-webfont.woff"), url("../fonts/hkgrotesk-light-webfont.woff2");
+}
+
+@font-face {
+    font-family: "HK Grotesk Web";
+    font-weight: 400;
+    src:url("../fonts/hkgrotesk-medium-webfont.woff"), url("../fonts/hkgrotesk-medium-webfont.woff2");
+}
+
+@font-face {
+    font-family: "HK Grotesk Web";
+    font-weight: 500;
+    src:url("../fonts/hkgrotesk-light-webfont.woff"), url("../fonts/hkgrotesk-light-webfont.woff2");
+}
+
 /*------------------------------------*\
   #GENERIC
 \*------------------------------------*/
@@ -15,11 +33,18 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: Helvetica, arial, sans-serif;
+    font-family: "HK Grotesk Web", Helvetica, arial, sans-serif;
     color: #202024;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 768px;) {
+    html {
+        font-size: 20px;
+        line-height: 1.6;
+    }
 }
 
 *,
@@ -67,6 +92,10 @@ img {
     ---
     Default markup for typographic elements
 */
+
+h1, h2, h3 {
+    font-weight: 200;
+}
 
 h1 {
     font-size: 36px;
@@ -196,7 +225,7 @@ a:focus {
 .o-container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 90em; /* 90 * 16px = 1440px */
+    max-width: 56.4em; /* 90 * 16px = 1440px */
 }
 
 /*
